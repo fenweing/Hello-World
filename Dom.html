@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="Dom.js"></script>
+<title>DOM Learn</title>
+</head>
+<body>
+<div id="box">
+<h2>Pictures to show</h2>
+<ul id="ul">
+<li>
+<a href="images/1.jpg" title="pic1">pic1</a>
+</li>
+<li>
+<a href="images/2.jpg" onclick="showPic(this);return false;" title="pic2">pic2</a>
+</li>
+<li>
+<a href="images/3.jpg" onclick="showPic(this);return false;" title="pic3">pic3</a>
+</li>
+</ul>
+<img id="img" src="#" style="" alt="picShowed"/>
+</div>
+<button id="btn1" >addCodeByInner</button>
+<button id="btn2" >addCodeByDom</button>
+<div id="box2">
+</div>
+<script type="text/javascript">
+document.write("<p>i am added by document.write");
+</script>
+<div id="box3">
+</div>
+<div id="box4">
+    <h2>An test for abbreviation</h2>
+    <p>The <abbr title="League of legend">LOL</abbr> is an online game which is very popular in China.</p>
+</div>
+</body>
+</html>
